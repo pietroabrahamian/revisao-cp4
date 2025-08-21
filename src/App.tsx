@@ -1,16 +1,17 @@
 import { Content } from './components/content'
+import { Header } from "./components/header"
 
 function App() {
 
-
-  return (
+return (
     <>
-  <Content 
-  title='Aula de Front'
-  content='aula de revisão do checkpoint'/>
-  <Content 
-  title='Aula de Pyhon'
-  content='aula de dicionarios no python'/>
+      <Header />
+      <Content 
+      title='Aula de Front'
+      content='aula de revisão do checkpoint'/>
+      <Content 
+      title='Aula de Pyhon'
+      content='aula de dicionarios no python'/>
     </>
   )
 }
